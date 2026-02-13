@@ -1,9 +1,61 @@
-Anomaly Detection in Time Series Using Anomaly Transformer
-Detecting anomalies in time series data is a challenging task, especially when labeled datasets are unavailable. Traditional methods often analyze individual data points or simple pairwise relationships, but they fail to capture the complex dependencies within time series data. The Anomaly Transformer addresses this challenge by leveraging its anomaly-attention mechanism, enabling it to analyze the entire sequence of data. This approach allows the model to uncover intricate dependencies and patterns that traditional methods often miss, making it highly effective in detecting anomalies, even in the absence of labeled data.
+# 🧠 Synaptix
 
-The model utilizes prior association and series association to better understand the underlying structure of the data. Prior association helps capture global patterns in the data, while series association focuses on local dependencies. To further enhance the anomaly detection, the minmax strategy is employed, maximizing the difference between normal and anomalous data points, making anomalies more distinguishable.
+Synaptix is a full-stack project I worked on to understand how machine learning and web applications can come together in a practical way. The main idea behind this project is to build an interactive system where users can work with data through a simple interface while the backend handles processing and logic.
 
-For anomaly scoring, the model computes a reconstruction loss based on the discrepancy between the prior association and the series association, measured using KL divergence. This discrepancy is used to calculate an anomaly score via a dot product, which effectively identifies anomalies by highlighting deviations from expected patterns.
+---
 
-Based on the anomaly score, the model detects anomalies without the need for labeled data, making it a powerful tool for time series anomaly detection in various domains.Using the transformer here has been a great advantage and has been an easy and efficient manner to identify and detect the anomalies.
+## 🚀 Live Demo
+https://synaptix.vercel.app
 
+---
+
+## 💡 About the Project
+While working on Synaptix, my goal was not just to run code but to understand the overall flow of a real application — from frontend interaction to backend processing. I explored how different parts of a project connect, how APIs communicate, and how deployment works in a real environment.
+
+This project helped me gain hands-on experience with project structure, debugging, and making improvements step by step.
+
+---
+
+## 👩‍💻 My Work & Contributions
+- Set up and organized the project locally
+- Worked on understanding and modifying the code structure
+- Improved setup and documentation
+- Made changes and tested the application flow
+- Deployed the project and connected the live link
+
+---
+
+## 🛠 Tech Stack
+JavaScript  
+Node.js  
+Frontend + Backend Integration  
+Git & GitHub  
+Vercel Deployment
+
+---
+
+## 📂 Project Structure
+src/ – frontend logic  
+server/ – backend setup  
+public/ – static files
+
+---
+
+## ⚙️ Running Locally
+
+Clone the repository:
+
+git clone https://github.com/your-username/synaptix.git
+
+Install dependencies:
+
+npm install
+
+Start the project:
+
+npm start
+
+---
+
+## 📌 Notes
+This project is part of my learning journey where I focused on understanding real project workflows, improving my development skills, and working with a deployed full-stack application.
